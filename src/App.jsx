@@ -28,7 +28,7 @@ const App = () => {
       <button className='bg-black hover:bg-sky-700 ... p-5 mr-3 w-full'>I</button>
       <button className='bg-black hover:bg-sky-700 ... p-5 mr-3 w-full'>Love</button>
       <button className='bg-black hover:bg-sky-700 ... p-5 mr-3 w-full'>You</button>
-      <button className='bg-black hover:bg-sky-700 ... p-5 mr-3 w-full'>So........</button>
+      <button className='bg-black hover:bg-sky-700 ... p-5 mr-3 w-full'>So......</button>
 
     </div>
     </div>
