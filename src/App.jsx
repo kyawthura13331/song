@@ -1,17 +1,28 @@
 import React from 'react'
+import image1 from './assets/image/acubi.jpeg'
+import image2 from './assets/image/download.jpeg'
 
 const App = () => {
   return (
     <div>
-    <div className='h-full bg-blue-400 text-center'>
-      kyawthura
+    <div className='h-30 bg-blue-400 text-center m-0 p-0'>
+    
 
     </div>
-    <div class="flex justify-start"> 
-      <div className='h-50 ... w-1/2 text-8xl text-cyan-950 bg-cyan-950 hover:bg-amber-600 text-center'>Lee</div>
-      <div className='h-50 ... w-1/2 text-8xl text-indigo-200 bg-indigo-200 hover:bg-cyan-900 text-center'>Bel</div>
+    <div className="flex justify-start"> 
+      <div className={`bg-center bg-auto bg-no-repeat h-[50vh] ... w-1/2 bg-black hover:bg-[url("./assets/image/acubi.jpeg")]  `}></div>
+      <div className='grid-cols-7 grid gap-4 max-w-2/5 min-w-1 '>
+        <div className='bg-black hover:bg-amber-200 ... p-5 m-3 w-full mt-2 rounded-3xl hover:rotate-6 text-center'>I</div>
+        <div className='bg-black hover:bg-amber-600 ... p-5 m-3 w-full mt-2 rounded-3xl hover:rotate-6 text-center'>Love</div>
+        <div className='bg-black hover:bg-amber-800 ... p-5 m-3 w-full mt-2 rounded-3xl hover:rotate-6 text-center'>You</div>
+        <div className='bg-black hover:bg-amber-900 ... p-5 m-3 w-full mt-2 rounded-3xl hover:rotate-6 text-center'>So</div>
+        <div className='bg-black hover:bg-amber-900 ... p-5 m-3 w-full mt-2 rounded-3xl hover:rotate-6 text-center'>So</div>
+        <div className='bg-black hover:bg-amber-900 ... p-5 m-3 w-full mt-2 rounded-3xl hover:rotate-6 text-center'>So</div>
+        <div className='bg-black hover:bg-amber-900 ... p-5 m-3 w-full mt-2 rounded-3xl hover:rotate-6 text-center'>So</div>
+      </div>
+      
     </div>
-    <div class='text-center mt-6 flex justify-between text-5xl mb-5'>
+    <div className='text-center mt-6 flex justify-between text-5xl mb-5'>   
       <button className='bg-black hover:bg-sky-700 ... p-5 mr-3 w-full'>I</button>
       <button className='bg-black hover:bg-sky-700 ... p-5 mr-3 w-full'>Love</button>
       <button className='bg-black hover:bg-sky-700 ... p-5 mr-3 w-full'>You</button>
@@ -31,6 +42,14 @@ const App = () => {
       <button className='bg-black hover:bg-sky-700 ... p-5 mr-3 w-full'>So......</button>
 
     </div>
+    <div className='flex justify-center hover:bg-[url("./assets/image/acubi.jpeg")]'>
+      <img src={image2} alt="" />
+    </div>
+    <div className="flex ... justify-between">
+  <div className="size-14 grow-3 ... bg-amber-600 ">01</div>
+  <div className="size-14 grow-3 ... bg-blue-700 hover:grow-7">02</div>
+  <div className="size-14 grow-3 ... bg-cyan-950">03</div>
+  </div>
     </div>
     
   )
