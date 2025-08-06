@@ -8,6 +8,8 @@ import Otherpf from './Otherpf'
 import  Ol  from './Ol'
 import Joji from './Joji'
 import Juice from './Juice'
+import Bele from './Bele'
+import Onclicktest from './Onclicktest.jsx'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
      <BrowserRouter>
@@ -18,6 +20,8 @@ createRoot(document.getElementById('root')).render(
      <Route path='/Ol' element={<Ol/>}/>
      <Route path='/Joji' element={<Joji/>}/>
      <Route path='/Juice' element={<Juice/>}/>
+     <Route path='/Bele' element={<Bele/>}/>
+     <Route path='/Onclicktest' element={<Onclicktest/>}/>
     </Routes>
     </BrowserRouter>
   </StrictMode>
