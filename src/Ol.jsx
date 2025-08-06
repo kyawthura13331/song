@@ -43,7 +43,7 @@ const Ol = () => {
                               
                             {
                                 navItems.map((nav,index) => (
-                            <Link to={nav.path} key={nav.path} className= {`${index%2===0?'bg-black' : 'bg-white'} text-center justify-between text-[21px] text-black rounded-full w-[10vw] h-[4vh] m-2 hover:bg-blue-950 hover:text-white font-bold `}>
+                            <Link to={nav.path} key={nav.path} className= {`${index%2===0?'bg-blue-400 text-black' : 'bg-white'} text-center justify-between text-[21px] text-black rounded-full w-[10vw] h-[4vh] m-2 hover:bg-blue-950 hover:text-white font-bold `}>
                              
                               {nav.label}
                                     

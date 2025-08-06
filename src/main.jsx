@@ -10,11 +10,13 @@ import Joji from './Joji'
 import Juice from './Juice'
 import Bele from './Bele'
 import Onclicktest from './Onclicktest.jsx'
+
 createRoot(document.getElementById('root')).render(
   <StrictMode>
      <BrowserRouter>
     <Routes>
       <Route path='/' element={<Otherpf/>}/>
+      <Route path='.Otherpf/' element={<Otherpf/>}/>
       <Route path='/App' element={<App/>}/>
       <Route path='/Lana'element={<Lana/>}/>
      <Route path='/Ol' element={<Ol/>}/>
