@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { Link, Outlet } from 'react-router-dom'
 import logo from './assets/image/logo.png'
 import bele from './assets/image/bele.jpg'
 import joji from './assets/image/joji.jpg'
@@ -15,7 +15,7 @@ const Otherpf = () => {
         <div className='bg-black w-screen h-screen '>
             <div className='bg-black flex justify-center text-center  '>
               <img className='w-48 h-40 mask-b-from-60% mr-[90%] mask-t-from-20 mask-r-from-30 absolute '  src={logo} alt="" /> 
-           <Nav/>
+          
         </div>
 
             
@@ -48,6 +48,7 @@ const Otherpf = () => {
     </div>
    
 </div>
+<Outlet />
     </>
         
 

@@ -19,7 +19,7 @@ const Test = () => {
              
             <div className=' flex justify-center text-white text-5xl mt-0'>
                       
-                   <Nav/>
+                   
               </div>
         </div>
         

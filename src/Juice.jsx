@@ -13,7 +13,7 @@ import Nav from './assets/component/Nav'
    <div className=' flex justify-center items-center  w-screen h-screen bg-no-repeat bg-center bg-cover bg-[url("./assets/image/milky-way.jpg")]'>
              <div className='flex justify-evenly text-center absolute top-0 left-0 w-full h-[5vh] text-white text-5xl font-bold'>
                           <div className=' flex justify-center text-white text-4xl mt-0 '>
-                            <Nav/>
+                           
                           </div>
                              </div><img src={disc} alt="" className='w-[20vw] h-3[25vh] animate-spin absolute right-1/11 mt-5 z-20' style={{ animationDuration: '5s' }}/>
                              <div className='flex  max-w-4xl  mt-0 w-[80vw] h-[60vh] bg-black/5  backdrop-blur-xs font-bold text-white rounded-3xl z-100'>

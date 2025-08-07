@@ -15,7 +15,7 @@ const Joji = () => {
                          <div className='flex justify-evenly text-center'>
                             
                              <div className=' flex justify-center text-white text-4xl mt-0'>
-                                    <Nav/>   
+                                    
                                     
                                </div>
                          </div>

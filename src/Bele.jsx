@@ -15,7 +15,7 @@ const Bele = () => {
 
 <div className='flex justify-evenly text-center absolute top-0 left-0 w-full h-[5vh] text-white text-5xl font-bold'>
      <div className=' flex justify-center  text-4xl mt-0'>
-            <Nav/>
+            
     </div>
   </div>
       <img src={disc} alt="" className='w-[20vw] h-3[13vh] animate-spin absolute right-1/11 top-1/6 z-20' style={{ animationDuration: '5s' }}/>

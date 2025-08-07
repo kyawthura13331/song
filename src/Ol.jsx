@@ -14,7 +14,6 @@ const Ol = () => {
                 <div className='flex justify-evenly text-center'>
                    
                     <div className= 'flex justify-center text-white text-4xl mt-0' >
-                                <Nav/> 
                       </div>
                 </div>
                  <img src={disc} alt="" className='w-[15vw] h-3[15vh] animate-spin absolute right-1/8 mt-45 z-20' style={{ animationDuration: '5s' }}/>

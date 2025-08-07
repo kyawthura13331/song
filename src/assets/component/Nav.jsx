@@ -28,17 +28,16 @@ const Nav = () => {
         }   
     ]
   return (
-    <>
-{
+    <div className='bg-none flex justify-between absolute left-1/12'>{
                 Navitems.map((nav) => (
-            <Link to={nav.path} key={nav.path} className='text-2xl text-white rounded-full w-[13vw] h-[5vh] m-2 hover:bg-white hover:text-black font-bold'>
+            <Link to={nav.path} key={nav.path} className='text-center text-2xl bg-none text-white rounded-full w-[13vw] h-[5vh] m2 hover:bg-white hover:text-black font-bold '>
              
               {nav.label}
 
             </Link>
             ))
              }
-    </>
+    </div>
   )
 }
 
