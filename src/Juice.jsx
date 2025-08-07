@@ -10,7 +10,7 @@ import Nav from './assets/component/Nav'
  const Juice = () => {
    
   return (
-   <div className=' flex justify-center items-center  w-screen h-screen bg-no-repeat bg-center bg-cover bg-[url("./assets/image/milky-way.jpg")]'>
+   <div className=' flex justify-center items-center  w-screen h-screen bg-no-repeat bg-center bg-cover bg-[url("./assets/image/milky-way.jpg")] '>
              <div className='flex justify-evenly text-center absolute top-0 left-0 w-full h-[5vh] text-white text-5xl font-bold'>
                           <div className=' flex justify-center text-white text-4xl mt-0 '>
                            

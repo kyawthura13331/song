@@ -3,20 +3,18 @@ import { Link } from 'react-router-dom'
 import image3 from './assets/image/belebg.jpeg'
 import image2 from './assets/image/beleimg2.jpg'
 import image1 from './assets/image/beleimg1.jpeg'
-import bgimg from './assets/image/bgimg.jpg'
+
 import song from './assets/audio/birdsof.mp3'
 import disc from './assets/image/disc.png'  
-import Nav from './assets/component/Nav.jsx'
+
 const Bele = () => {
  
   return (
-    
-    <div className='flex justify-center items-center w-screen h-screen bg-center bg-cover bg-[url("./assets/image/bgimg.jpg")] '>
+    <>
+    <div className=' justify-center items-center w-screen h-screen bg-center bg-cover bg-[url("./assets/image/bgimg.jpg")] inline-flex'>
 
 <div className='flex justify-evenly text-center absolute top-0 left-0 w-full h-[5vh] text-white text-5xl font-bold'>
-     <div className=' flex justify-center  text-4xl mt-0'>
-            
-    </div>
+     
   </div>
       <img src={disc} alt="" className='w-[20vw] h-3[13vh] animate-spin absolute right-1/11 top-1/6 z-20' style={{ animationDuration: '5s' }}/>
         <div className='flex w-screen max-w-4xl  mt-10 backdrop-blur-xs bg-white/5  font-bold rounded-3xl z-100'>
@@ -46,6 +44,9 @@ const Bele = () => {
 
 
     </div>
+    </>
+    
+    
     
   )
 }
