@@ -6,50 +6,15 @@ import image3 from './assets/image/olv3.jpg'
 import logo from './assets/image/logo.png'
 import song from './assets/audio/happier.mp3'
 import disc from './assets/image/disc.png'
+import Nav from './assets/component/Nav'
 const Ol = () => {
-    
-   
-    const navItems=[
-       {
-            label:"Home",
-            path:"/"
-        }, 
-        {
-            label:"Joji",
-            path:"/Joji"
-        },
-        {
-            label:"Juice Wrld",
-            path:"/Juice"
-        },
-       
-        {
-            label:"Lana Del Rey", 
-            path:"/Lana"  
-        },
-        {
-            label:"Billie Eilish",   
-            path:"/Bele"  
-        }
-        
-       
-    ]
   return (
    <>
          <div className='bg-cyan-900 w-screen h-screen text-white flex flex-col items-center  text-6xl align-text-bottom'>
                 <div className='flex justify-evenly text-center'>
                    
                     <div className= 'flex justify-center text-white text-4xl mt-0' >
-                              
-                            {
-                                navItems.map((nav,index) => (
-                            <Link to={nav.path} key={nav.path} className= {`${index%2===0?'bg-blue-400 text-black' : 'bg-white'} text-center justify-between text-[21px] text-black rounded-full w-[10vw] h-[4vh] m-2 hover:bg-blue-950 hover:text-white font-bold `}>
-                             
-                              {nav.label}
-                                    
-                            </Link>
-                            ))
-                             } 
+                                <Nav/> 
                       </div>
                 </div>
                  <img src={disc} alt="" className='w-[15vw] h-3[15vh] animate-spin absolute right-1/8 mt-45 z-20' style={{ animationDuration: '5s' }}/>

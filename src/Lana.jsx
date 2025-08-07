@@ -6,32 +6,8 @@ import logo from './assets/image/logo.png'
 import { Link } from 'react-router-dom'
 import song from './assets/audio/brooklyn.mp3'
 import disc from './assets/image/disc.png'
+import Nav from './assets/component/Nav'
 const Test = () => {
-   
-    const navItems=[
-        {
-            label:"Home",
-            path:"/"
-        }, 
-        {
-            label:"Joji",
-            path:"/Joji"
-        },
-        {
-            label:"Juice Wrld",
-            path:"/Juice"
-        },
-        {
-            label:"Olivia Rodrigo",
-            path:"/Ol"
-        },
-        
-        {
-            label:"Billish Eliish",   
-            path:"/Bele"  
-        } 
-       
-    ]
     
   return (
  <div >
@@ -43,15 +19,7 @@ const Test = () => {
              
             <div className=' flex justify-center text-white text-5xl mt-0'>
                       
-                    {
-                        navItems.map((nav) => (
-                    <Link to={nav.path} key={nav.path} className='justify-between text-2xl text-white rounded-full w-[15vw] h-[5vh] m-2 hover:bg-white hover:text-black font-bold '>
-                     
-                      {nav.label}
-        
-                    </Link>
-                    ))
-                     } 
+                   <Nav/>
               </div>
         </div>
         

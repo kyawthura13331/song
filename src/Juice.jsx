@@ -6,46 +6,14 @@ import image2 from './assets/image/jw2.jpg'
 import image3 from './assets/image/jw3.jpg'
 import song from './assets/audio/hateme.mp3'
 import disc from './assets/image/disc.png'
+import Nav from './assets/component/Nav'
  const Juice = () => {
-    const navItems=[
-        {
-            label:"Home",
-            path:"/"
-        }, 
-        {
-            label:"Joji",
-            path:"/Joji"
-        },
-        
-        {
-            label:"Olivia Rodrigo",
-            path:"/Ol"
-        },
-        {
-            label:"Lana Del Rey", 
-            path:"/Lana"  
-        },
-        {
-            label:"Billish Eilish",   
-            path:"/Bele"  
-        }
-       
-       
-    ]
+   
   return (
    <div className=' flex justify-center items-center  w-screen h-screen bg-no-repeat bg-center bg-cover bg-[url("./assets/image/milky-way.jpg")]'>
              <div className='flex justify-evenly text-center absolute top-0 left-0 w-full h-[5vh] text-white text-5xl font-bold'>
                           <div className=' flex justify-center text-white text-4xl mt-0 '>
-                                                   
-                                    {
-                                          navItems.map((nav) => (
-                                          <Link to={nav.path} key={nav.path} className='border-2 rounded-full hover:border-black text-white text-center justify-between text-[21px] w-[10vw] h-[4vh] m-2 hover:bg-red-500 hover:text-black font-bold '>
-                          
-                                         {nav.label}
-                                    
-                                         </Link>
-                                        ))
-                                           } 
+                            <Nav/>
                           </div>
                              </div><img src={disc} alt="" className='w-[20vw] h-3[25vh] animate-spin absolute right-1/11 mt-5 z-20' style={{ animationDuration: '5s' }}/>
                              <div className='flex  max-w-4xl  mt-0 w-[80vw] h-[60vh] bg-black/5  backdrop-blur-xs font-bold text-white rounded-3xl z-100'>

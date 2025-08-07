@@ -6,50 +6,16 @@ import joji from './assets/image/joji.jpg'
 import juice from './assets/image/juice.jpg'
 import oliva from './assets/image/oliva.jpg'
 import lana from './assets/image/lanapf.jpg'
-
+import Nav from './assets/component/Nav'
 
 const Otherpf = () => {
-    const navItems=[
-        {
-            label:"Home",
-            path:"/"
-        }, 
-        {
-            label:"Joji",
-            path:"/Joji"
-        },
-        {
-            label:"Juice Wrld",
-            path:"/Juice"
-        },
-        {
-            label:"Olivia Rodrigo",
-            path:"/Ol"
-        },
-        {
-            label:"Lana Del Rey", 
-            path:"/Lana"  
-        },
-        {
-            label:"Billish Eilish",   
-            path:"/Bele"  
-        }
-       
-    ]
+  
   return (
     <>
         <div className='bg-black w-screen h-screen '>
             <div className='bg-black flex justify-center text-center  '>
               <img className='w-48 h-40 mask-b-from-60% mr-[90%] mask-t-from-20 mask-r-from-30 absolute '  src={logo} alt="" /> 
-            {
-                navItems.map((nav) => (
-            <Link to={nav.path} key={nav.path} className='text-2xl text-white rounded-full w-[13vw] h-[5vh] m-2 hover:bg-white hover:text-black font-bold'>
-             
-              {nav.label}
-
-            </Link>
-            ))
-             } 
+           <Nav/>
         </div>
 
             
